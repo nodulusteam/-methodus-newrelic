@@ -2,7 +2,7 @@
     "name": "@methodus/newrelic",
     "version": "1.0.1",
     "description": "An API module for newrelic",
-    "main": "index.js",
+    "main": "lib/index.js",
     "license": "BSD-3-Clause",
     "scripts": {
         "build": "rimraf lib && tsc",
