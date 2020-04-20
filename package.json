@@ -1,0 +1,34 @@
+{
+    "name": "@methodus/newrelic",
+    "version": "1.0.0",
+    "description": "An API module for newrelic",
+    "main": "index.js",
+    "license": "BSD-3-Clause",
+    "scripts": {
+        "build": "rimraf lib && tsc",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nodulusteam/-methodus-newrelic.git"
+    },
+    "author": "NodulusTeam",
+    "bugs": {
+        "url": "https://github.com/nodulusteam/-methodus-newrelic/issues"
+    },
+    "homepage": "https://github.com/nodulusteam/-methodus-newrelic#readme",
+    "dependencies": {},
+    "peerDependencies": {
+        "@methodus/platform-rest": "^5.0.21",
+        "@methodus/server": "^5.0.28"
+    },
+    "devDependencies": {
+        "@methodus/platform-rest": "^5.0.21",
+        "@methodus/server": "^5.0.28",
+        "@types/node": "^13.13.0",
+        "jest": "^25.4.0",
+        "rimraf": "^3.0.2",
+        "ts-jest": "^25.4.0",
+        "typescript": "^3.8.3"
+    }
+}
