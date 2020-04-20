@@ -10,8 +10,8 @@ export interface Events {
 }
 
 export interface Entry {
-    timestamp: number;
     message: string;
+    timestamp?: number;
     service?: string;
     hostname?: string;
 }

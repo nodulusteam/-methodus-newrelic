@@ -23,6 +23,7 @@
         "@methodus/server": "^5.0.28"
     },
     "devDependencies": {
+        "@types/jest": "^25.2.1",
         "@methodus/platform-rest": "^5.0.21",
         "@methodus/server": "^5.0.28",
         "@types/node": "^13.13.0",
