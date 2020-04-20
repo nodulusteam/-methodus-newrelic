@@ -1,6 +1,6 @@
 {
     "name": "@methodus/newrelic",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "An API module for newrelic",
     "main": "lib/index.js",
     "license": "BSD-3-Clause",
