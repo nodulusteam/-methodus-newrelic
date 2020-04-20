@@ -7,5 +7,8 @@ import { Http } from '@methodus/platform-rest';
 @ClientConfiguration(NewRelicLogs, Http, 'https://log-api.newrelic.com')
 @ClientConfiguration(NewRelicInsights, Http, 'https://insights-collector.newrelic.com')
 export class NewrelicModule {
-
+    providers = [NewRelicLogs, NewRelicInsights]
 }
+
+export * from './contracts/logs.contract';
+export * from './contracts/insights.contract';
